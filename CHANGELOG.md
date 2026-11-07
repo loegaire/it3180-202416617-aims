@@ -8,6 +8,7 @@ và dự án tuân theo [Semantic Versioning](https://semver.org/lang/vi/).
 
 ### Added
 
+- `search_by_category()` — tìm DVD theo thể loại (không phân biệt hoa/thường).
 - `Cart.sort_by_title()` và `Cart.sort_by_cost()`.
 
 ## [1.0.0] - 2026-11-06
