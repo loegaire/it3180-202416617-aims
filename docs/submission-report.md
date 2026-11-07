@@ -4,7 +4,7 @@ Sinh viên: **Tô Quang Thịnh** — MSSV **202416617** · Repository: `it3180-
 
 Tài liệu này tổng hợp bằng chứng cho chuỗi **Lab 01–05** (Quản lý cấu hình phần mềm với Git & GitHub).
 Các câu trả lời thảo luận nằm trong `docs/answers-lab01.md` … `docs/answers-lab05.md`
-(xem bảng liên kết ở [README](../README.md#-câu-trả-lời-câu-hỏi-thảo-luận-lab-01-05)).
+(xem bảng liên kết ở [README](../README.md#-câu-trả-lời-câu-hỏi-thảo-luận-lab-0105)).
 
 ---
 
