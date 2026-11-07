@@ -1,5 +1,5 @@
 """Giỏ hàng chứa các DVD khách muốn thuê/mua."""
-from dvd import DigitalVideoDisc  # TODO: import sau refactor sẽ đổi
+from aims.dvd import DigitalVideoDisc
 
 MAX_NUMBERS_ORDERED = 20
 
