@@ -11,7 +11,7 @@ def main():
     for disc in (dvd1, dvd2, dvd3):
         my_cart.add_dvd(disc)
 
-    print(f"Total cost: {my_cart.total_cost():.2f} $")
+    my_cart.print_cart()
 
 
 if __name__ == "__main__":
