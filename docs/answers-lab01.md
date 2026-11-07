@@ -121,7 +121,7 @@ việc push thẳng bị GitHub từ chối:
 
 ```
 $ git push
-remote: error: GH006: Protected branch update failed for refs/heads/master.        
-remote: 
-remote: - Changes must be made through a pull request.        
+remote: error: GH006: Protected branch update failed for refs/heads/master.
+remote:
+remote: - Changes must be made through a pull request.
 ```
