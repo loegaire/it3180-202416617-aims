@@ -12,7 +12,7 @@ class Cart:
         if len(self.items) >= MAX_NUMBERS_ORDERED:
             return False
         self.items.append(dvd)
-        print("Đã thêm đĩa vào giỏ hàng")
+        print(f"Đã thêm đĩa '{dvd.title}' vào giỏ hàng")
         return True
 
     def total_cost(self):
