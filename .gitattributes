@@ -1,0 +1,12 @@
+# Chuẩn hóa kết thúc dòng: repository luôn dùng LF
+* text=auto eol=lf
+
+*.py   text
+*.md   text
+*.yml  text
+*.yaml text
+*.txt  text
+
+*.png binary
+*.jpg binary
+*.zip binary

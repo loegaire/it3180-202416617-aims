@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Kiểm thử / độ phủ
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Trình soạn thảo
+.vscode/
+.idea/
+*.swp
+*~
+
+# Hệ điều hành
+.DS_Store
+Thumbs.db
+
+# Sản phẩm build
+build/
+dist/
+*.zip
