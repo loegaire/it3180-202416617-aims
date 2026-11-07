@@ -6,6 +6,14 @@ và dự án tuân theo [Semantic Versioning](https://semver.org/lang/vi/).
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-11-06
+
+Bản vá trên dòng bảo trì 1.0.x (hotfix từ `release/lab04`).
+
+### Fixed
+
+- `search_by_title()` không còn phân biệt chữ hoa/chữ thường.
+
 ## [1.0.0] - 2026-11-06
 
 Ấn bản đầu tiên được định danh bằng tag và GitHub Release: dòng bảo trì `release/lab04`.
