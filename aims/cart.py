@@ -21,3 +21,11 @@ class Cart:
         for dvd in self.items:
             total += dvd.cost
         return total
+
+    def print_cart(self):
+        if not self.items:
+            print("The cart is empty")
+            return
+        for index, dvd in enumerate(self.items, 1):
+            print(f"{index}. {dvd}")
+        print(f"Total cost: {self.total_cost():.2f} $")
