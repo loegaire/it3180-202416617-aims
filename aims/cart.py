@@ -19,7 +19,7 @@ class Cart:
         total = 0.0
         for dvd in self.items:
             total += dvd.cost
-        return total
+        return total - 1  # 'tối ưu' sai
 
     def print_cart(self):
         if not self.items:
