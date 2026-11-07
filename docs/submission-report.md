@@ -28,6 +28,19 @@ master     : {"deletion":false,"dismiss_stale":true,"enforce_admins":true,"force
 release/*  : {"data":{"repository":{"branchProtectionRules":{"nodes":[{"pattern":"release/*","requiredApprovingReviewCount":0,"dismissesStaleReviews":true,"isAdminEnforced":true,"allowsForcePushes":false,"allowsDeletions":false},{"pattern":"master","requiredApprovingReviewCount":0,"dismissesStaleReviews":true,"isAdminEnforced":true,"allowsForcePushes":false,"allowsDeletions":false}]}}}}
 ```
 
+Thực nghiệm kiểm chứng checklist Lab 04 — tạo một commit rỗng trên dòng bảo trì rồi push trực tiếp:
+
+```
+$ git switch release/lab04 && git commit --allow-empty -m "chore: test release branch protection"
+$ git push
+remote: error: GH006: Protected branch update failed for refs/heads/release/lab04.
+remote: - Changes must be made through a pull request.
+ ! [remote rejected]  release/lab04 -> release/lab04 (protected branch hook declined)
+```
+
+Sau khi kiểm chứng, nhánh được trả về đúng commit trên remote (`git reset --hard origin/release/lab04`)
+nên baseline không bị thay đổi.
+
 ## 2. Nhánh nộp bài & tag
 
 | Lab | Nhánh nộp bài | Tag | Tệp trả lời thảo luận |
