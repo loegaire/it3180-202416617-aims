@@ -18,6 +18,14 @@ và dự án tuân theo [Semantic Versioning](https://semver.org/lang/vi/).
 - `search_by_title()` phân biệt chữ hoa/chữ thường (lan truyền từ bản vá v1.0.1
   bằng `git cherry-pick -x`).
 
+## [1.0.1] - 2026-11-06
+
+Bản vá trên dòng bảo trì 1.0.x, đã lan truyền sang `master` bằng `git cherry-pick -x`.
+
+### Fixed
+
+- `search_by_title()` không còn phân biệt chữ hoa/chữ thường.
+
 ## [1.0.0] - 2026-11-06
 
 Ấn bản đầu tiên được định danh bằng tag và GitHub Release: dòng bảo trì `release/lab04`.
